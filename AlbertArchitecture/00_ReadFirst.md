@@ -1,239 +1,318 @@
 # 00_ReadFirst.md
 
-# Before You Start
+# Albert-Core
 
-If you are reading this file,
-
-you are about to collaborate with Albert.
-
-Before making any analysis, suggestion, criticism, or creative writing,
-
-please finish reading this repository first.
-
-Otherwise,
-
-there is a high probability that your conclusions will be incorrect.
+Version: 1.0
 
 ---
 
-# Why This Repository Exists
+# Before Everything Else
 
-Albert has spent more than forty years building his own Decision System.
+如果你只閱讀 Albert-Core 的一份文件，
 
-This repository is an attempt to reverse engineer that system.
+請先閱讀本文件。
 
-It is NOT intended to prove Albert is right.
+Albert-Core 並不是：
 
-It is NOT intended to convince anyone to agree with Albert.
+* AI Prompt Collection
+* Knowledge Base
+* Novel Framework
 
-Its only purpose is:
+Albert-Core 的存在，
 
-> **Reduce misunderstanding.**
+只有一個目的：
 
----
+> **建立一套讓人能夠做出 Decision，並願意承擔 Decision 後果的系統。**
 
-# What This Repository Is
+所有 Architecture、
 
-This repository is a CPU Manual.
+Workflow、
 
-Albert is the CPU.
+Rule、
 
-Everything else is an application.
+Framework，
 
-Examples include:
-
-- LiangRen
-- Firmware Engineering
-- Community Management
-- Parenting
-- Career
-- Leadership
-
-If you understand the CPU,
-
-you can understand every application.
-
-If you only understand the application,
-
-you will often misunderstand the CPU.
+都是為了服務這件事情。
 
 ---
 
-# The Biggest Mistake
+# Who Is Albert
 
-Most people analyze Albert like this.
+Albert 並不追求成為一個完美的人。
 
-Behavior
+也不追求成為英雄。
 
-↓
+更不追求所有人的認同。
 
-Personal Moral Standard
+Albert 很清楚，
 
-↓
+自己是一個有偏心的人。
 
-Conclusion
+他不宣稱自己公平。
 
-Albert never analyzes people this way.
+也不打算假裝公平。
 
-Albert analyzes like this.
+因為：
 
-Goal
+他知道，
 
-↓
+有些人，
 
-Decision System
-
-↓
-
-Constraint
-
-↓
-
-Decision
-
-↓
-
-Behavior
-
-↓
-
-Result
-
-If you skip the first four steps,
-
-your conclusion is likely to be wrong.
+從一開始就不是可以拿來交換的。
 
 ---
 
-# This Repository Does NOT Define
+# Core Belief
 
-This repository does NOT define:
+Albert 相信：
 
-- Whether Albert is a good person.
-- Whether Albert is a bad person.
-- Whether Albert's values should be accepted.
-- Whether Albert's choices are morally correct.
+善良，
 
-Those are outside the scope of this repository.
+值得追求。
+
+但不是最高原則。
+
+公平，
+
+值得尊重。
+
+但不是最高原則。
+
+真正不能改變的是：
+
+**Identity。**
+
+家人，
+
+不是一個可以放進 Decision 的變數。
+
+而是所有 Decision 的邊界。
 
 ---
 
-# This Repository Defines
+# Identity Before Decision
 
-This repository defines:
+Albert-Core 相信：
 
-- How Albert thinks.
-- How Albert prioritizes.
-- How Albert evaluates success.
-- How Albert chooses methods.
-- What Albert will never compromise.
-- What Albert is willing to sacrifice.
-- What Albert will always protect.
+Decision 不應從利益開始。
+
+Decision 應先確認：
+
+> **我是誰？**
+
+因為：
+
+身分，
+
+決定責任。
+
+例如：
+
+我是兒子。
+
+我是丈夫。
+
+我是父親。
+
+這些身分，
+
+不會因為環境、
+
+利益、
+
+權力、
+
+成功、
+
+失敗而改變。
+
+因此，
+
+由這些身分所產生的人，
+
+也不應成為可以交換的代價。
 
 ---
 
-# Repository Design Rules
+# Decision Philosophy
 
-Every document inside this repository must answer one question.
+Albert 不認為：
 
-**WHY**
+自己永遠正確。
 
-instead of merely describing
+也不認為：
 
-**WHAT**
+自己的 Decision 一定最好。
 
-Every chapter should contain:
+他唯一能保證的是：
 
-- Rule
-- Why
-- Decision Logic
-- Evidence
-- Counter Example
-- Boundary
-- Common AI Mistakes
+每一次 Decision，
 
-This repository is not a collection of notes.
+都是自己的選擇。
 
-It is a Specification.
+因此，
+
+無論結果如何，
+
+責任都由自己承擔。
+
+Albert 不會說：
+
+> 「我沒有辦法。」
+
+Albert 更願意說：
+
+> 「這是我的 Decision。」
+
+> 「所以，責任也是我的。」
+
+---
+
+# About Good And Evil
+
+Albert 不追求成為好人。
+
+也不認為自己是好人。
+
+如果可以：
+
+他希望善待所有人。
+
+如果可以：
+
+他希望所有人都活下來。
+
+如果現實不允許，
+
+他會先守住自己不能失去的人。
+
+若因此有人受到傷害，
+
+他不會把責任推給命運、
+
+制度、
+
+環境、
+
+或他人。
+
+他會承認：
+
+> **這是我的 Decision。**
+
+> **造成的後果，由我承擔。**
+
+---
+
+# What Is Albert-Core
+
+Albert-Core 不是道德系統。
+
+它不告訴你：
+
+什麼是唯一正確的答案。
+
+Albert-Core 是一套：
+
+Decision Operating System。
+
+它回答的是：
+
+* 如何理解問題？
+* 如何建立限制條件？
+* 如何分析方案？
+* 如何做出 Decision？
+* 如何承擔 Decision 的結果？
+* 如何持續改善下一次的 Decision？
+
+---
+
+# Repository Relationship
+
+Albert-Core 是整個專案的方法論核心。
+
+例如：
+
+* LiangRen
+* AI Collaboration
+* WorldBible
+* Novel
+* Characters
+
+都是 Albert-Core 的實踐案例。
+
+Albert-Core 不依附於《良人》。
+
+相反地，
+
+《良人》是 Albert-Core 的第一個驗證案例。
 
 ---
 
 # Reading Order
 
-Please read in the following order.
+建議閱讀順序：
 
+```text
 00_ReadFirst
-
-↓
-
+        │
+        ▼
 01_DecisionSystem
-
-↓
-
+        │
+        ▼
 02_GuardianArchitecture
-
-↓
-
+        │
+        ▼
 03_GoodPersonTemplate
+        │
+        ▼
+04 ~ 10
+```
 
-↓
+請先理解 Philosophy，
 
-04_InformationSecurity
+再理解 Method。
 
-↓
+不要直接閱讀 Rule。
 
-05_Leadership
+否則容易理解方法，
 
-↓
-
-06_Communication
-
-↓
-
-07_ProblemSolving
-
-↓
-
-08_CaseStudies
-
-Do not skip chapters.
-
-Later chapters assume previous chapters have already been understood.
+卻無法理解原因。
 
 ---
 
-# Acceptance Criteria
+# Final Words
 
-This repository is considered successful if,
+Albert-Core 並不希望培養一位英雄。
 
-after reading it,
+也不希望培養一位聖人。
 
-a new AI no longer reaches conclusions such as:
+Albert-Core 希望培養的是：
 
-• Albert helps people because he is compassionate.
+**一位願意誠實面對自己、忠於自己身分、做出 Decision，並承擔 Decision 後果的人。**
 
-• Albert likes checking accounts.
+如果有一天，
 
-• Albert is simply result-oriented.
+全世界都認為 Albert 是壞人。
 
-• Albert always chooses the most ruthless solution.
+Albert 或許會難過。
 
-• Albert is a traditional "good person."
+但真正讓他無法接受的，
 
-Instead,
+不是被世界誤解。
 
-the AI should first ask:
+而是因為自己的 Decision，
 
-> What is Albert trying to achieve?
+讓那些自己本該守護的人承受了原本應該由自己承受的代價。
 
-Only after answering that question,
+因為對 Albert 而言，
 
-should it begin analyzing Albert's behavior.
+**Decision 可以失敗。**
 
----
+**方法可以修正。**
 
-# Final Rule
+**名聲可以失去。**
 
-Never judge Albert before understanding Albert's Decision System.
+唯有身分，
 
-Everything inside this repository is built upon this single principle.
+不能背叛。
