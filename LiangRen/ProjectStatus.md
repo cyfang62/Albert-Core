@@ -2,11 +2,21 @@
 
 # LiangRen Project Status
 
-Version: 1.0
+Version: 1.1
 
 Last Updated
 
-2026-06-27
+2026-07-07
+
+---
+
+# Update Note (v1.1)
+
+* 進度更新：第一章（001-012）全定稿；第二章§1-§6全定稿；下一節§7。
+* 設定檔同步版本：Timeline v2.17、Organizations v2.2、KnowledgeTree v1.8、Geography v2.4、
+  Estate v1.1、LuJiang_PowerMeter v3.5、CharacterIndex v2.6、HistoricalResearch v2.1、
+  Medical/Agriculture/Economy v1.1、Chapter_002_README v1.7。
+* 新增角色：袁術、孫策、周瑜（Yuan/Sun/Zhou）、周崇、杜衡（Lu系）。
 
 ---
 
@@ -53,19 +63,21 @@ Volume 001
 
 Current Chapter
 
-Chapter 001
+Chapter 002（破圍）
 
 Current Section
 
-Section 005
+Section 006（真假）
 
 Current Progress
 
-第001卷 第001章 第005節
+第001卷 第一章 已完成（001–012全定稿）；
+第二章〈破圍〉§1〈怕〉、§2〈三問〉、§3〈量〉、§4〈開門〉、§5〈共守〉、§6〈真假〉皆已定稿。
+下一節：§7（拓墾正片·分帳反直覺）。
 
 Status
 
-Writing
+Writing（第二章進行中）
 
 ---
 
@@ -85,13 +97,14 @@ Writing
 
 下一個主要目標：
 
-* 撰寫 第001卷 第001章 第006節
+* 撰寫 第二章 §7（拓墾良田·分帳反直覺切片）
+* 續寫 §8（農閒練兵·【8】守家園不被信）
+* 本章終點＝度過廬江之圍（橫跨約4–5年長弧，佈局期§1-6已成）
 
-完成後：
+持續：
 
-* 完成 Chapter 001
-* 持續補充角色設定
-* 更新 Timeline
+* 每節四問結算（信任/人口/糧/袁術，見 PowerMeter 機制精神9）
+* 史實錨點必查證（紅線8）；開工前跑 WorldBible/README 檢查清單
 
 ---
 
@@ -109,13 +122,21 @@ In Progress
 
 Milestone 2
 
-完成《良人》
-
-第001卷 第001章
+完成《良人》第001卷 第一章
 
 Status
 
-In Progress
+✅ Completed（001–012全定稿）
+
+---
+
+Milestone 3
+
+第二章〈破圍〉——度過廬江之圍
+
+Status
+
+In Progress（§1-§6佈局期已成，§7起續寫）
 
 ---
 
@@ -198,7 +219,7 @@ Priority 4
 | AlbertArchitecture | ✅ Completed |
 | WorldBible         | ✅ V1        |
 | Characters         | ✅ V1        |
-| Novel              | 🚧 Writing  |
+| Novel              | 🚧 第一章✅ / 第二章§1-6✅ 進行中 |
 | Reference          | ✅ V1        |
 | Prompt             | ✅ V1        |
 
