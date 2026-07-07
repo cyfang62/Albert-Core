@@ -1,417 +1,124 @@
-# Albert-Core
+# ★ 開工前：先讀 ProjectStatus.md 的「協作鐵律」四條 ★
+
+> 先讀再寫／繁體硬檢查（對話也是）／數值史實要算式出處／列出所有受影響檔。違反即停。
+> 陸議定調：非壞人、非仁君——為自己而算、順手行善、看得見良善卻按算計走、扛全責；冷是選擇的重量非涼薄。
+
+---
+
+# WorldBible
 
 Version: 1.0
 
 ---
 
-# Overview
+# Purpose
 
-Albert-Core 是一套以 **Decision System** 為核心設計的知識庫。
+WorldBible 為《良人》的世界設定核心。
 
-它不是：
+目的不是紀錄劇情。
 
-* AI Prompt Repository
-* 個人成長筆記
-* 小說設定集
-* 世界觀資料庫
+而是建立小說運作所需的共用世界觀，確保所有章節、角色與事件皆遵循相同設定。
 
-而是：
+當小說內容與 WorldBible 衝突時，
 
-> **一套將 Decision、Constraint、Responsibility 與 Continuous Improvement 系統化的方法論。**
+應優先檢查並修正其中一方，
 
-Albert-Core 的目的，
-
-不是提供唯一正確的答案。
-
-而是建立一套：
-
-**即使面對困難抉擇，仍能做出一致 Decision 的工作系統。**
+避免同時存在兩個版本的設定。
 
 ---
 
-# Why Albert-Core Exists
+# Structure
 
-人生中的多數問題，
+目前 WorldBible 包含：
 
-都沒有標準答案。
-
-真正困難的，
-
-不是知道答案。
-
-而是：
-
-* 如何分析？
-* 如何取捨？
-* 如何承擔？
-* 如何持續改善？
-
-Albert-Core 希望建立的，
-
-不是答案資料庫。
-
-而是：
-
-> **Decision Operating System。**
-
-完整理念請閱讀：
-
-```text
-AlbertArchitecture/
-└── 00_ReadFirst.md
-```
+| File             | Purpose       |
+| ---------------- | ------------- |
+| Timeline.md      | 小說時間軸與重要事件    |
+| Geography.md     | 地理環境、城池、行政區域  |
+| Organizations.md | 家族、勢力、組織與其關係  |
+| KnowledgeTree.md | 主角可取得與掌握的知識體系 |
 
 ---
 
-# Design Philosophy
+# Design Principle
 
-Albert-Core 建立於四個核心概念：
+WorldBible 不負責：
 
-## Identity
+* 劇情
+* 對白
+* 角色內心
+* 章節內容
 
-先確認：
+WorldBible 只負責：
 
-**我是誰？**
-
-身分，
-
-決定哪些事情不能背叛。
-
----
-
-## Constraint
-
-先建立：
-
-Decision 的邊界。
-
-哪些事情，
-
-永遠不能成為交換條件。
+> **世界是否一致。**
 
 ---
 
-## Decision
+# Usage
 
-在 Constraint 之內，
+新增章節前，
 
-尋找最好的解法。
+建議先確認：
 
-不是追求完美。
+1. Timeline 是否衝突。
+2. Geography 是否正確。
+3. Organizations 是否一致。
+4. 主角知識是否符合 KnowledgeTree。
 
-而是追求：
+若發現設定衝突，
 
-自己願意承擔的 Decision。
+請先更新 WorldBible，
 
----
-
-## Responsibility
-
-Decision 的後果，
-
-屬於 Decision 的制定者。
-
-Albert-Core 不鼓勵：
-
-將責任推給：
-
-* 環境
-* 制度
-* 命運
-* 他人
-
-Decision 可以失敗。
-
-責任不能轉移。
-
----
-
-# Repository Structure
-
-```text
-Albert-Core/
-│
-├── README.md
-├── AlbertArchitecture/
-├── LiangRen/
-├── Prompt/
-└── Assets/
-```
-
----
-
-# Module Description
-
-## AlbertArchitecture
-
-Albert-Core 的核心方法論。
-
-內容包括：
-
-* Decision System
-* Guardian Architecture
-* Good Person Template
-* Information Security
-* Leadership
-* Problem Solving
-* System Thinking
-* Communication
-* Constraint
-* Decision Review Checklist
-
-回答：
-
-> **How should I think?**
-
----
-
-## LiangRen
-
-《良人》小說專案。
-
-內容包括：
-
-* WorldBible
-* Characters
-* Novel
-* Reference
-
-《良人》並不是 Albert-Core。
-
-而是：
-
-Albert-Core 的第一個大型驗證案例。
-
-回答：
-
-> **How can the system be applied?**
-
----
-
-## Prompt
-
-不同 AI 模型的工作規範。
-
-目的不是限制 AI。
-
-而是：
-
-建立一致的協作流程。
-
-目前包含：
-
-* ChatGPT
-* Claude
-* Gemini
-
-回答：
-
-> **How should AI collaborate?**
-
----
-
-## Assets
-
-圖片、
-
-地圖、
-
-文件、
-
-其他輔助素材。
-
-提供小說與專案所需資源。
-
----
-
-# Design Principles
-
-Albert-Core 採用以下原則：
-
-## Single Source of Truth
-
-正式設定，
-
-只能有一個來源。
-
-避免不同文件互相衝突。
-
----
-
-## Constraint Before Optimization
-
-先建立 Constraint。
-
-再開始最佳化。
-
-不要為了更好的結果，
-
-修改自己的底線。
-
----
-
-## Deliverable First
-
-先完成可運作版本。
-
-再持續改善。
-
-避免無止盡的重構與討論。
-
----
-
-## Continuous Improvement
-
-所有流程，
-
-皆可改善。
-
-但改善，
-
-不代表推翻。
-
-Version 應持續演進。
-
----
-
-## Human Decision
-
-AI 可以：
-
-分析、
-
-提醒、
-
-提出建議。
-
-但：
-
-最終 Decision，
-
-永遠由人負責。
-
----
-
-# Recommended Reading Order
-
-第一次閱讀，
-
-建議依照以下順序：
-
-```text
-README
-    │
-    ▼
-AlbertArchitecture/
-    └── 00_ReadFirst.md
-            │
-            ▼
-01_DecisionSystem.md
-            │
-            ▼
-02_GuardianArchitecture.md
-            │
-            ▼
-03_GoodPersonTemplate.md
-            │
-            ▼
-04 ~ 10
-            │
-            ▼
-LiangRen/
-            │
-            ▼
-Prompt/
-```
-
-Repository → Philosophy → Method → Practice → Collaboration
-
----
-
-# Current Status
-
-Current Version
-
-V1.0
-
-Status
-
-Active Development
-
-Primary Project
-
-LiangRen
-
-Current Goal
-
-建立一套：
-
-可重複、
-
-可維護、
-
-可傳承、
-
-可持續改善的 Decision System。
+再修改小說內容。
 
 ---
 
 # Scope
 
-Albert-Core 不試圖回答：
+WorldBible 只記錄：
 
-所有人的人生應該如何選擇。
+* 長期有效設定
+* 世界共同規則
+* 可重複引用資訊
 
-Albert-Core 只定義：
+以下內容不建議放入 WorldBible：
 
-一套 Decision Framework。
-
-任何人都可以：
-
-接受、
-
-修改、
-
-或建立屬於自己的 Constraint 與 Philosophy。
-
-Albert-Core 提供的是：
-
-方法。
-
-而不是唯一正確的價值觀。
+* 單一章節事件
+* 臨時設定
+* 人物心理描寫
+* 劇情細節
 
 ---
 
-# Final Words
+# Future Expansion
 
-Albert-Core 並不是一本教人成功的手冊。
+隨小說進展，
 
-它也不是一本道德指南。
+可逐步增加新的世界設定文件。
 
-它更像是一套 Operating System。
+例如：
 
-當人生遇到困難的 Decision 時，
+* Politics.md
+* Military.md
+* Economy.md
+* Culture.md
+* Calendar.md
 
-Albert-Core 希望提供的不是答案。
+僅在實際需要時建立，
 
-而是一套一致的方法：
+避免過早設計。
 
-先確認自己的身分。
+---
 
-建立不可違反的 Constraint。
+# Maintenance
 
-在 Constraint 內尋找最好的解法。
+每完成一個重要章節後，
 
-誠實承擔 Decision 帶來的後果。
+可回頭檢查是否有新的世界設定需要補充。
 
-然後，
+WorldBible 應隨小說同步成長，
 
-持續改善下一次的 Decision。
+但始終維持：
 
-因為真正重要的，
-
-從來不是一次完美的選擇。
-
-而是：
-
-**建立一套讓自己多年以後，仍願意承認那是自己所做 Decision 的系統。**
+**簡潔、準確、可查詢。**
