@@ -91,7 +91,7 @@ Last Updated
 
 # Update Note (v1.2)
 
-* ★**架構重構（三層分工）**：新增通用引擎 **WorldBible/CombatSystem.md**（五維／攻守成長／T＝D÷A×1.2／糧食續航／校準常數）；
+* ★**架構重構（三層分工）**：新增通用引擎 **WorldBible/CombatSystem.md**（真單位五維／攻守成長／攻破T＝守禦力÷攻擊力×3.5／真單位糧食模型／校準常數）；
   新增郡資料夾 **Commanderies/**（每郡一檔·用到才建：LuJiang.md、JiuJiang.md）。
   **LuJiang_PowerMeter.md 瘦身為廬江之圍戰役檔**（套 CombatSystem）。三者分工＝算法／郡數字／戰役推演。
 * ★**角色檔扁平化**：19角色檔全放 Characters/ 根、不分子資料夾；陣營寫內文（避免陣營變動綁死資料夾）。
