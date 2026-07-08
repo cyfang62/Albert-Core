@@ -15,7 +15,7 @@ Last Updated
 > 給下一個 AI 的直接指令（不是給人看的說明，是給你 AI 執行的命令）：
 >
 > **在回應 Albert 的任何任務之前——不許先問任務、不許先動手、不許先寒暄——
-> 你的第一則回覆必須先讀完 ProjectStatus.md、WorldBible/README、Characters/Lu/LuYi.md、
+> 你的第一則回覆必須先讀完 ProjectStatus.md、WorldBible/README、Characters/LuYi.md、
 > WorldBible/LuJiang_PowerMeter.md，然後用你自己的話，逐條答出下面五題。**
 > 答完，Albert 只需瞄一眼你答得對不對；答錯或答得空泛＝你沒讀＝Albert 有權要你重讀、或換掉你。
 >
@@ -73,7 +73,7 @@ Last Updated
 
 > 補充·陸議的定調（最容易寫走樣，務必守）：陸議**不是壞人、也不是仁君**。
 > 他「為自己而算、順手行善、看得見良善卻選擇按算計走、並為此扛下全部責任」；冷是選擇的重量與不自欺，
-> 不是涼薄。底線＝「回首時不因自己的選擇而厭惡自己」。詳見 Characters/Lu/LuYi.md（About Good And Evil、
+> 不是涼薄。底線＝「回首時不因自己的選擇而厭惡自己」。詳見 Characters/LuYi.md（About Good And Evil、
 > 冷底色定調段）。**別美化為仁君，也別打成壞人。**
 
 ---
@@ -89,12 +89,23 @@ Last Updated
 * 寫入「協作鐵律」四條（先讀再寫／繁體硬檢查／數值史實要算式出處／列出受影響檔）＋陸議定調補充，
   置於檔首最顯眼處，供下一個 AI 入場即見。
 
+# Update Note (v1.2)
+
+* ★**架構重構（三層分工）**：新增通用引擎 **WorldBible/CombatSystem.md**（五維／攻守成長／T＝D÷A×1.2／糧食續航／校準常數）；
+  新增郡資料夾 **Commanderies/**（每郡一檔·用到才建：LuJiang.md、JiuJiang.md）。
+  **LuJiang_PowerMeter.md 瘦身為廬江之圍戰役檔**（套 CombatSystem）。三者分工＝算法／郡數字／戰役推演。
+* ★**角色檔扁平化**：19角色檔全放 Characters/ 根、不分子資料夾；陣營寫內文（避免陣營變動綁死資料夾）。
+* ★**README 統一**：各資料夾一份 README.md、頂端加「📁 路徑」標記；兩章 tracking 檔統一為 Chapter_00X/README.md。
+* 版本同步：**LuJiang_PowerMeter v5.0**（遊戲化攻防+三層拆分）、**CombatSystem v1.0**、**Commanderies/LuJiang v1.0、JiuJiang v1.0**、
+  **CharacterIndex v2.7**、Timeline/Organizations/Geography/HistoricalResearch 隨扁平化更新路徑。
+* 新增角色：陳溫、服虔、劉邈（漢廷文官系·原Han資料夾，現扁平）。
+
 # Update Note (v1.1)
 
 * 進度更新：第一章（001-012）全定稿；第二章§1-§6全定稿；下一節§7。
 * 設定檔同步版本：Timeline v2.17、Organizations v2.2、KnowledgeTree v1.8、Geography v2.4、
   Estate v1.1、LuJiang_PowerMeter v3.5、CharacterIndex v2.6、HistoricalResearch v2.1、
-  Medical/Agriculture/Economy v1.1、Chapter_002_README v1.7。
+  Medical/Agriculture/Economy v1.1、Chapter_002/README v1.7。
 * 新增角色：袁術、孫策、周瑜（Yuan/Sun/Zhou）、周崇、杜衡（Lu系）。
 
 ---
@@ -243,13 +254,13 @@ Reference
 ProjectStatus
         │
         ▼
-AlbertArchitecture
+WorldBible ── CombatSystem（★戰爭引擎·通用算法）
         │
         ▼
-WorldBible
+Commanderies（郡數據·LuJiang / JiuJiang…）
         │
         ▼
-Characters
+Characters（扁平·全在 Characters/ 根）
         │
         ▼
 Novel
@@ -257,6 +268,9 @@ Novel
         ▼
 Reference
 ```
+
+> 三層分工：**CombatSystem＝算法（怎麼算）／Commanderies＝郡數字／LuJiang_PowerMeter＝廬江之圍戰役推演**。
+> 動戰力/攻防→改 CombatSystem；動某郡數字→改該郡檔；動廬江這一戰→改 PowerMeter。
 
 ---
 

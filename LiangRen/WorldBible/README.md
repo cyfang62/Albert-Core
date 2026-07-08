@@ -1,5 +1,7 @@
 # WorldBible
 
+> 📁 路徑：LiangRen/WorldBible/README.md
+
 Version: 1.0
 
 ---
@@ -30,6 +32,11 @@ WorldBible 為《良人》的世界設定核心。
 | Geography.md     | 地理環境、城池、行政區域  |
 | Organizations.md | 家族、勢力、組織與其關係  |
 | KnowledgeTree.md | 主角可取得與掌握的知識體系 |
+| CombatSystem.md  | ★戰爭系統通用引擎（五維／攻守成長／T＝D÷A×1.2／糧食續航／校準常數）——放諸四海皆準的算法 |
+| LuJiang_PowerMeter.md | 廬江之圍**戰役檔**（袁術靶場／難民戰略／三政策／加分日誌／終局抉擇）——套 CombatSystem |
+
+> 另：郡數據不放此處，獨立於 `LiangRen/Commanderies/`（每郡一檔，如 LuJiang.md、JiuJiang.md；用到才建）。
+> 三層分工：**CombatSystem＝算法／Commanderies＝郡數字／PowerMeter＝戰役推演**。
 
 ---
 

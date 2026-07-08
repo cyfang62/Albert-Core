@@ -217,7 +217,7 @@ Summary
 Decision
 
 採用。★關鍵：189淮南非袁術（是陳溫）；袁術是「敗出來的鄰居」、下行自崩之對手。
-用於 Organizations 袁術條、Characters/Yuan、Timeline Future、PowerMeter 三·五。
+用於 Organizations 袁術條、Characters、Timeline Future、PowerMeter 三·五。
 
 ---
 
@@ -235,7 +235,7 @@ Summary
 Decision
 
 採用。★更正：189孫策在壽春非舒縣、190才識周瑜遷舒、190-192才結私仇（曾憑記憶誤植已改）。
-用於 Characters/Sun、Timeline、PowerMeter 靶子四。
+用於 Characters、Timeline、PowerMeter 靶子四。
 
 ---
 
@@ -251,7 +251,7 @@ Summary
 
 Decision
 
-採用。189入夏周瑜14歲在舒縣、未識孫策。用於 Characters/Zhou。
+採用。189入夏周瑜14歲在舒縣、未識孫策。用於 Characters。
 
 ---
 

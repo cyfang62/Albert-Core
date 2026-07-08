@@ -1,5 +1,7 @@
 # Characters
 
+> 📁 路徑：LiangRen/Characters/README.md
+
 Version: 1.0
 
 ---
@@ -18,25 +20,23 @@ Version: 1.0
 
 # Directory Structure
 
-目前依家族或勢力分類。
+**扁平化（v2.0改）：所有角色檔直接放在 `Characters/` 底下，不分姓氏/勢力子資料夾。**
 
-例如：
+原因：單人資料夾＝沒有分類效果的分類，徒增層級。檔名皆帶姓氏前綴（LuYi、LuKang、GuYong、ChenWen…），
+排序時同姓自然相鄰，等於「按一下就把同姓氏放一起」，不需靠資料夾分群。
 
 ```text
 Characters/
-├── Lu/
-├── Sun/
-├── Cao/
-├── Liu/
-├── Han/
-└── Original/
+├── CharacterIndex.md
+├── README.md
+├── LuYi.md  LuKang.md  LuJun.md … （陸系·同姓自然相鄰）
+├── ChenWen.md  ChenManager.md    （陳·同姓相鄰）
+├── FuQian.md  FuBo.md            （服/福）
+├── SunCe.md  ZhouYu.md  YuanShu.md  ZhuHuan.md  GuYong.md  ZhangYun.md …
+└── （新角色一律直接放這層）
 ```
 
-僅建立目前小說實際需要的資料夾。
-
-未登場勢力，
-
-不預先建立。
+勢力/陣營歸屬**寫在各角色檔內文**（Basic Information／Relationship），不靠資料夾表達——因為陣營會隨劇情變動，用資料夾綁死反而易亂。
 
 ---
 
@@ -154,7 +154,7 @@ WorldBible 負責：
 * 身份是否已確認。
 * 是否已有相同角色。
 * 是否符合故事設定。
-* 是否需要加入對應家族或勢力資料夾。
+* 直接放在 Characters/ 底下（扁平化·不分子資料夾）；陣營歸屬寫在內文。
 
 角色資料應隨小說進度持續補充，
 
